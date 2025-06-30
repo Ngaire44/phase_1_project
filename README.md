@@ -35,19 +35,10 @@ This initial assessment helps identify potential challenges and guides how we pr
 
 ## 🧼 Data Cleaning & Preparation
 
-The goal of data cleaning is to transform the raw dataset into a structured and reliable format suitable for analysis. Key steps included:
-Missing Value Handling,
-Drop columns with excessive missing data,
-Impute missing values using appropriate statistical or categorical strategies,
-Data Filtering,
-Remove irrelevant or incomplete records (e.g. non-aircraft incidents or missing key variables),
-Categorical Grouping,
-Group low-frequency entries under broader labels (e.g. "Other")
-Data Type Correction,
-Convert date columns to proper datetime format,
-Ensure numerical columns were correctly typed for analysis, and
-Outlier Treatment.
 
-These steps ensure we have a clean, consistent, and relevant dataset to move forward with meaningful visualizations and business insights.
+## Recommendations
+1. To avert weather related risks, we should invest in aircrafts that are suitable for both VMC(good weather) and IMC(bad weather)
+- Pilots should be trained on how to operate especially during IMC
 
+2. Based on Aircraft make, it's safer to invest in newer models from established manufacturers with strong safety records and active support such as Cessna and Beechcraft
 
