@@ -3,8 +3,8 @@
 ## 📊 Business Understanding
 
 ### Project Overview
-As the company explores entry into the aviation industry, this project uses aviation accident data from the National Transportation Safety Board (1962–2023) to identify strategic opportunities and risk factors. By analyzing trends, causes, and survivability of aviation incidents, we aim to identify low-risk aircrafts to buy and guide data-informed decisions.
-### Business Objective
+As the company explores entry into the aviation industry, this project uses aviation accident data from the National Transportation Safety Board (1962–2023) to identify strategic opportunities and risk factors. (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses). By analyzing trends, causes, and survivability of aviation incidents, we aim to identify low-risk aircrafts to buy and guide data-informed decisions.
+### Business Objective and Understanding
 Provide actionable insights to support aircraft purchase decisions that minimize operational risk. These insights will assist internal stakeholders, investors, and insurers in evaluating the safety profiles of aircraft types and aviation sectors.
 
 ## ❓ Key Business Questions
@@ -33,12 +33,33 @@ Temporal and geographic coverage,
 Data completeness, consistency, and uniqueness.
 This initial assessment helps identify potential challenges and guides how we prepare the data for accurate and meaningful analysis.
 
-## 🧼 Data Cleaning & Preparation
+![alt text](image.png)
+Most accidents occur in VMC (good weather) compared to bad weather
+
+![alt text](image-1.png)
+Highest accident counts are in personal, instructional and business aviation
+
+![alt text](image-2.png)
+A few well known manufacturers dominate accident reports, which may be a reflection of high market share as opposed to poor safety records
+
+![alt text](image-3.png)
+Positive correlation (0.53) between serious injuries and fatalities, meaning accidents with serious injuries are more likely to also have fatalities.
+
+![alt text](image-4.png)
+There are seasonal patterns in aviation accidents. Understanding and adapting to seasonal patterns directly contributes to lower operational risk, improved safety records, and higher profitability.
+
+![alt text](image-5.png)
+Minor or no damage cases rarely lead to fatal imjuries regardless of weather
 
 
 ## Recommendations
 1. To avert weather related risks, we should invest in aircrafts that are suitable for both VMC(good weather) and IMC(bad weather)
 - Pilots should be trained on how to operate especially during IMC
 
-2. Based on Aircraft make, it's safer to invest in newer models from established manufacturers with strong safety records and active support such as Cessna and Beechcraft
+2. Based on Aircraft make, it's safer to invest in newer models from established manufacturers with strong safety records and active support such as Cessna and Beechcraft.
 
+3.  For low risks, commercial operations offer safety due to strict regulations and operational standards.Pilot experience and maintenance may be the reason as to why personal and instructional aviation has a higher risk
+
+4. Large multi-engine aircraft don't eliminate risk but may be beneficial when combined with other factors (weather, operator type). Focus should be on operator practices, training, and flight conditions rather than only the aircraft’s physical specifications.
+
+5. Focus on advanced weather-avoidance technologies and pilot training for IMC conditions, as weather paired with severe aircraft damage significantly increases fatalities.
