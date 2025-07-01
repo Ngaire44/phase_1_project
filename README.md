@@ -63,3 +63,6 @@ Minor or no damage cases rarely lead to fatal imjuries regardless of weather
 4. Large multi-engine aircraft don't eliminate risk but may be beneficial when combined with other factors (weather, operator type). Focus should be on operator practices, training, and flight conditions rather than only the aircraft’s physical specifications.
 
 5. Focus on advanced weather-avoidance technologies and pilot training for IMC conditions, as weather paired with severe aircraft damage significantly increases fatalities.
+
+Tableau Dashboard link
+https://public.tableau.com/app/profile/maureen.ngaire/viz/dashboard_17513552298640/Visualizations?publish=yes
